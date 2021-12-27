@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <div class="header-title">
+            <h1>Bank Application</h1>
+        </div>
+        <div class="header-menu">
+            <button class="accounts-btn">Accounts</button>
+            <button class="add-account-btn">Add Account</button>
+            <button class="edit-delete-btn">Edit/Delete Account</button>
+        </div>
+    </header>
+
+    <div class="accounts-view view-section">
+        <div>
+            <h1 class="main-title">Accounts</h1>
+        </div>
+        <div class="account-report">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Card type</th>
+                        <th>Deposit</th>
+                    </tr>
+                </thead>
+                <tbody class="main-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="add-account-view view-section">
+        <div>
+            <h1 class="main-title">Add Account</h1>
+        </div>
+        <div class="form-background">
+            <div class="box-input">
+                <label>Enter name</label>
+                <input type="text" placeholder="Peter" name="name">
+            </div>
+            <div class="box-input">
+                <label>Enter surname</label>
+                <input type="text" placeholder="Williams" name="surname">
+            </div>
+            <div class="box-input">
+                <label>Enter card type</label>
+                <input type="text" placeholder="Visa / Master / Dina" name="card-type">
+            </div>
+            <div class="box-input">
+                <label>Enter money amount</label>
+                <input type="text" placeholder="$500" name="money-amount">
+            </div>
+            <button class="save-btn">Save</button>
+        </div>
+    </div>
+
+    <div class="edit-delete-account-view view-section">
+        <div>
+            <h1 class="main-title">Edit/Delete Account</h1>
+        </div>
+        <div class="account-report">
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Card type</th>
+                    <th>Deposit</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                </thead>
+                <tbody class=edit-body>
+                <tr>
+                    <td>1</td>
+                    <td>Filip</td>
+                    <td>Simeunovic</td>
+                    <td>Visa</td>
+                    <td>129000</td>
+                    <td><button class="edit-btn">Edit</button></td>
+                    <td><button class="delete-btn">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Nenad</td>
+                    <td>Nenadovic</td>
+                    <td>Master</td>
+                    <td>89000</td>
+                    <td><button class="edit-btn">Edit</button></td>
+                    <td><button class="delete-btn">Delete</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="edit-account-view">
+        <div>
+            <h1 class="main-title">Edit Account</h1>
+        </div>
+        <div class="form-background">
+            <div class="box-input">
+                <label>Edit name</label>
+                <input type="text" placeholder="Peter" name="eName">
+            </div>
+            <div class="box-input">
+                <label>Edit surname</label>
+                <input type="text" placeholder="Williams" name="eSurname">
+            </div>
+            <div class="box-input">
+                <label>Edit card type</label>
+                <input type="text" placeholder="Visa / Master / Dina" name="eCard-type">
+            </div>
+            <div class="box-input">
+                <label>Edit money amount</label>
+                <input type="text" placeholder="$500" name="eMoney-amount">
+            </div>
+            <button class="edit-account-btn">Edit</button>
+        </div>
+    </div>
+
+    <script src="js/database.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

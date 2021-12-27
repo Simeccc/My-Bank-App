@@ -1,0 +1,196 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.main-title {
+    color: dodgerblue;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #444;
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: center;
+}
+/* SPECIFIC */
+.nav-bar {
+    height: 20%;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+}
+
+.header-title {
+    width: 100%;
+    font-size: 24px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.header-menu button:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/*ACCOUNTS VIEW*/
+.accounts-view {
+    display: block;
+}
+
+.account-report table {
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid #444;
+    border-collapse: collapse;
+}
+
+.account-report th {
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid #444;
+}
+
+.account-report td {
+    color: #000;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #444;
+}
+
+/*ADD ACCOUNT VIEW*/
+.add-account-view {
+    display: none;
+}
+
+.form-background {
+    margin: 10px auto;
+    border: 1px solid #444;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 3px 3px 15px 0px #444444;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.box-input label {
+    color: dodgerblue;
+    text-transform: uppercase;
+    margin: 4px;
+}
+
+.box-input input {
+    border-radius: 4px;
+    font-size: 14px;
+    color: #444;
+    padding: 4px 8px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.save-btn {
+    color: whitesmoke;
+    background-color: dodgerblue;
+    font-size: 18px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 4px;
+}
+
+.save-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+/* EDIT ACCOUNT  */
+.edit-account-view {
+    display: none;
+}
+
+/*EDIT DELETE ACCOUNT*/
+.edit-delete-account-view {
+    display: none;
+}
+
+.edit-btn {
+    border: none;
+    font-size: 20px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+.edit-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.delete-btn {
+    border: none;
+    font-size: 20px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: indianred;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+/* EDIT ACCOUNT VIEW  */
+.edit-account-btn {
+    border: none;
+    font-size: 20px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+.edit-account-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
